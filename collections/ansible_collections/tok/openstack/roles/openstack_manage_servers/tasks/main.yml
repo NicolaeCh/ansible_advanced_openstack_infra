@@ -2,7 +2,7 @@
   os_server:
     cloud: openstack
     name: app1
-    image: rhel-guest
+    image: rhel-7.6
     key_name: ansible_ssh_key
     flavor: m2.medium
     security_groups: apps
@@ -30,7 +30,7 @@
   os_server:
     cloud: openstack
     name: app2
-    image: rhel-guest
+    image: rhel-7.6
     key_name: ansible_ssh_key
     flavor: m2.medium
     security_groups: apps
@@ -58,7 +58,7 @@
   os_server:
     cloud: openstack
     name: db
-    image: rhel-guest
+    image: rhel-7.6
     key_name: ansible_ssh_key
     flavor: m2.medium
     security_groups: db
@@ -86,7 +86,7 @@
   os_server:
     cloud: openstack
     name: frontend
-    image: rhel-guest
+    image: rhel-7.6
     key_name: ansible_ssh_key
     flavor: m2.medium
     security_groups: frontend
